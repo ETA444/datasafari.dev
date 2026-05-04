@@ -20,9 +20,9 @@
 	$langs = null;
 	$def_lang = null;
 	$base_lang = 'en';
-	$site_id = '1f6a5e04';
+	$site_id = '3ec304b2';
 	${'sitemapUrls'} = array(
-		"https://datasafari.dev/"
+		'https://datasafari.dev/'
 	);
 	${'redirectItems'} = array();
 	$websiteUID = 'a6a356b5c3264602234fe32187385f9d0d140f4229732957d425ce1fd5dce5f177314cdb517a402d';
@@ -66,7 +66,89 @@
 		header('Location: '.getCurrUrl(false, 'https'), true, 301);
 		exit();
 	}
-	$requestHandledByModule = false;
+
+
+class MenuElement {
+	static function setMax($value) {
+		self::$maxItems = $value;
+	}
+
+	static function render($tree) {
+		self::renderItems($tree->{'items'}, 0, $tree->{'type'}, $tree->{'dir'});
+	}
+
+	static function renderItems($items, $level, $type, $dir) {
+		if (empty($items))
+			return;
+		self::renderTag("ul", array(
+			"class" => $level ? null : $type,
+			"dir" => $level ? null : $dir,
+		));
+		foreach ($items as $item) {
+			$liAttrs = array(
+				"class" => isset($item->{'class'}) ? $item->{'class'} : null,
+				"data-anchor" => isset($item->{'anchor'}) ? $item->{'anchor'} : null,
+				"title" => isset($item->{'title'}) ? htmlspecialchars($item->{'title'}) : null,
+				"data-wb-anim-entry-time" => isset($item->{'animTime'}) ? $item->{'animTime'} : null,
+				"data-wb-anim-entry-delay" => isset($item->{'animDelay'}) ? $item->{'animDelay'} : null,
+			);
+			$aAttrs = array(
+				"href" => isset($item->{'href'}) ? $item->{'href'} : null,
+				"target" => isset($item->{'target'}) ? $item->{'target'} : null,
+				"data-popup" => isset($item->{'popup'}) ? $item->{'popup'} : null,
+			);
+			$exceeded = self::$maxItems && isset($item->{'id'}) && $item->{'id'} > self::$maxItems;
+			if ($exceeded) {
+				$liAttrs["class"] = trim($liAttrs["class"] . " wb-menu-item-exceeded");
+				$aAttrs["href"] = 'javascript:void(0)';
+				$aAttrs["target"] = null;
+				$aAttrs["data-popup"] = null;
+				$item->{'icon'} = "star";
+				$item->{'iconAlign'} = "left";
+				$liAttrs["data-plugin"] = "Menu Items";
+			}
+			self::renderTag("li", $liAttrs);
+			self::renderTag("a", $aAttrs);
+			if (isset($item->{'icon'}) && $item->{'iconAlign'} === "left") {
+				self::renderIcon($item->{'icon'});
+				echo '&nbsp;';
+			}
+			if ($exceeded) echo '<span>';
+			echo $item->{'name'};
+			if ($exceeded) echo '</span>';
+			if (isset($item->{'icon'}) && $item->{'iconAlign'} === "right") {
+				echo '&nbsp;';
+				self::renderIcon($item->{'icon'});
+			}
+			echo '</a>';
+			if (isset($item->{'children'}))
+				self::renderItems($item->{'children'}, $level + 1, $type, $dir);
+			echo '</li>';
+		}
+		echo '</ul>';
+	}
+
+	static $maxItems = 0;
+
+	static function renderIcon($icon) {
+		if (empty($icon))
+			return;
+		if (strpos($icon, "<") !== false)
+			echo $icon;
+		else {
+			self::renderTag('i', array("class" => "fa fa-{$icon}"));
+			echo '</i>';
+		}
+	}
+
+	static function renderTag($tagName, $attributes) {
+		echo '<' . $tagName;
+		foreach ($attributes as $k => $v)
+			if ($v !== null && ($k !== "class" || $v !== ""))
+				echo ' ' . $k . '="' . htmlspecialchars($v) . '"';
+		echo '>';
+	}
+}	$requestHandledByModule = false;
 	$hr_out = '';
 	$page = $requestInfo->{'page'};
 	if (!$requestHandledByModule && !empty($urlArgs)) $page = null;
@@ -89,16 +171,19 @@
 			${'seoKeywords'} = $requestInfo->{'keywords'};
 			${'seoImage'} = $requestInfo->{'image'};
 			if (isset($_GET['wbPopupMode']) && $_GET['wbPopupMode'] == 1) { $wbPopupMode = true; }
+			$pd = @json_decode(@file_get_contents($flp));
+			if (!is_object($pd)) die('Data is corrupted');
+			$expectedCrc = $pd->{'e'};
+			unset($pd->{'e'});
+			$crc = sha1('sfh02a35gyhz0a33498g048qt3p048' . json_encode($pd));
+			if ($expectedCrc !== $crc) die('Data is corrupted');
+			MenuElement::setMax($pd->{'f'});
 			ob_start();
 			include $fl;
 			$out = ob_get_clean();
 			$ga_out = '';
 			if ($lang && $langs) {
-				foreach ($langs as $ln => $default) {
-					$pageUri = getPageUri($page['id'], $ln, $siteInfo);
-					$out = str_replace('{{lang_'.$ln.'}}', $pageUri, $out);
-					$out = str_replace(urlencode('{{lang_'.$ln.'}}'), $pageUri, $out);
-				}
+				replaceLangAlternates($siteInfo, $out, $langs, $page['id']);
 			}
 			if (is_file($ga_tpl = dirname(__FILE__).'/ga.php')) {
 				ob_start(); include $ga_tpl; $ga_out = ob_get_clean();
@@ -107,14 +192,8 @@
 			$out = str_replace('<ga-code/>', $ga_out, $out);
 			$out = str_replace('{{base_url}}', getBaseUrl(), $out);
 			$out = str_replace('{{curr_url}}', $currUrl, $out);
-			$out = str_replace('__wb_curr_url__', strpos($currUrl, '?') ? rtrim($currUrl, '/') : $currUrl, $out);
+			$out = str_replace('__wb_curr_url__', htmlspecialchars($currUrl), $out);
 			$out = str_replace('{{hr_out}}', $hr_out, $out);
-			$pd = @json_decode(@file_get_contents($flp));
-			if (!is_object($pd)) die('Data is corrupted');
-			$expectedCrc = $pd->{'e'};
-			unset($pd->{'e'});
-			$crc = sha1('sfh02a35gyhz0a33498g048qt3p048' . json_encode($pd));
-			if ($expectedCrc !== $crc) die('Data is corrupted');
 			if (!empty($pd->a)) {
 			    $smallPlugins = array (
   'Line' => 0,
@@ -185,27 +264,40 @@
   'wp' => 65,
   'zopim' => 66,
   'pinterest' => 67,
+  'pagopar' => 68,
+  'cmi' => 69,
+  'artpay' => 70,
 );
-				$out = preg_replace_callback('#<[^>]+data-plugin="([^"]+)"[^>]*>#isu', function($m) use($pd, $smallPlugins) {
+				$preg_clb = function($m) use($pd, $smallPlugins) {
 			        if (
 			            (empty($pd->{'a'}) || (isset($pd->{'a'}->{$m[1]}) && $pd->{'a'}->{$m[1]}))
 			            && (empty($pd->{'b'}) || !isset($pd->{'b'}->{$m[1]}) || !$pd->{'b'}->{$m[1]})
 					) return $m[0];
+					$featureName = $pluginId = $m[1];
+					$isMenuItem = $featureName === 'Menu Items'; if ($isMenuItem) $pluginId = 'Menu';
 					$r = substr($m[0], 0, -1);
-					$outside = isset($smallPlugins[$m[1]]);
+					$outside = isset($smallPlugins[$pluginId]);
 					$parentCss = $outside ? 'overflow:visible;' : '';
 					$linkCss = $outside ? 'right:-3px;top:-3px;transform:translate(0,-100%);' : 'right:0;top:0;';
+					$linkCss .= 'font: normal 14px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;';
 					$link = empty($pd->{'d'}) ? '' : (' href="' . htmlspecialchars($pd->{'d'}) . '" target="_blank" onclick="event.stopPropagation();event.returnValue=true;return true;"');
-					$minPlan = isset($pd->{'c'}->{$m[1]}[0]) ? $pd->{'c'}->{$m[1]}[0] : 'Business';
+					$minPlan = isset($pd->{'c'}->{$pluginId}[0]) ? $pd->{'c'}->{$pluginId}[0] : 'Business';
 					$link = str_replace('__MIN_PLAN__', rawurlencode($minPlan), $link);
-					$link = str_replace('__PLAN_FEATURE__', rawurlencode(isset($pd->{'c'}->{$m[1]}[1]) ? $pd->{'c'}->{$m[1]}[1] : $m[1]), $link);
-					$link = str_replace('__UTM_CAMPAIGN__', rawurlencode('plugin-' . strtolower(str_replace('_', '-', $m[1]))), $link);
+					$link = str_replace('__PLAN_FEATURE__', rawurlencode(isset($pd->{'c'}->{$featureName}[1]) ? $pd->{'c'}->{$featureName}[1] : $featureName), $link);
+					$link = str_replace('__UTM_CAMPAIGN__', rawurlencode('plugin-' . strtolower(str_replace('_', '-', $pluginId))), $link);
 					$link = str_replace('__UTM_CONTENT__', rawurlencode($_SERVER['HTTP_HOST']), $link);
 					$r .= ' style="outline: 3px solid #ff7600;'.$parentCss.'" >';
-					$r .= '<a'.$link.' style="position:absolute;'.$linkCss.'z-index:99999997;border:1px solid #FFF;background:#ff7600;color:#FFF;padding:4px;text-decoration:none;"><i class="fa fa-star"></i>&nbsp;'.htmlspecialchars(\SiteModule::__('This plugin requires upgrade')).'</a>';
-					$r .= '<a'.$link.' style="position:absolute;left:0;top:0;right:0;bottom:0;z-index:99999996;display:block;"></a>';
+					$linkText = ($isMenuItem ? '' : '<i class="fa fa-star"></i>&nbsp;') . htmlspecialchars(\SiteModule::__('This plugin requires upgrade'));
+					$r .= '<a'.$link.' style="position:absolute;'.$linkCss.'z-index:1;border:1px solid #FFF;background:#ff7600;color:#FFF;padding:4px;text-decoration:none;">'.$linkText.'</a>';
+					$r .= '<a'.$link.' style="position:absolute;left:0;top:0;right:0;bottom:0;z-index:1;display:block;"></a>';
 					return $r;
-				}, $out);
+				};
+				$prev_out = $out;
+				$out = preg_replace_callback('#<[^>]+data-plugin="([^"]+)"[^>]*>#isu', $preg_clb, $prev_out);
+				if ($out === null && in_array(preg_last_error(), array(PREG_BAD_UTF8_ERROR, PREG_BAD_UTF8_OFFSET_ERROR))) {
+					$out = preg_replace_callback('#<[^>]+data-plugin="([^"]+)"[^>]*>#is', $preg_clb, $prev_out);
+				}
+				$prev_out = null;
 		    	if (
 			        !((empty($pd->{'a'}) || (isset($pd->{'a'}->{'Form'}) && $pd->{'a'}->{'Form'}))
 			        && (empty($pd->{'b'}) || !isset($pd->{'b'}->{'Form'}) || !$pd->{'b'}->{'Form'}))

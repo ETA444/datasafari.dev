@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
 	<script type="text/javascript">
 			</script>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title><?php echo htmlspecialchars((isset($seoTitle) && $seoTitle !== "") ? $seoTitle : "DataSafari's Official Website"); ?></title>
 	<base href="{{base_url}}" />
-	<?php echo isset($sitemapUrls) ? generateCanonicalUrl($sitemapUrls) : ""; ?>	
+	<?php echo isset($sitemapUrls) ? (generateCanonicalUrl($sitemapUrls)."\n") : ""; ?>	
 	
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
-						
+							
 	<!-- Facebook Open Graph -->
 						<!-- Facebook Open Graph end -->
 
 		<meta name="generator" content="Website Builder" />
-			<script src="js/common-bundle.js?ts=20241023172225" type="text/javascript"></script>
-	<script src="js/a188dd9cfa60000804666376dffe914b-bundle.js?ts=20241023172225" type="text/javascript"></script>
-	<link href="css/common-bundle.css?ts=20241023172225" rel="stylesheet" type="text/css" />
+			<script src="js/common-bundle.js?ts=20260504164721" type="text/javascript"></script>
+	<script src="js/a188dd9cfa60000804666376dffe914b-bundle.js?ts=20260504164721" type="text/javascript"></script>
+	<link href="css/common-bundle.css?ts=20260504164721" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
-	<link href="css/a188dd9cfa60000804666376dffe914b-bundle.css?ts=20241023172225" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
+	<link href="css/a188dd9cfa60000804666376dffe914b-bundle.css?ts=20260504164721" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
 	<ga-code/><meta charset="UTF-8">
 
 <!-- Primary Meta Tags -->
@@ -92,7 +92,52 @@
 </head>
 
 
-<body class="site site-lang-en<?php if (isset($wbPopupMode) && $wbPopupMode) echo ' popup-mode'; ?> " <?php ?>><div id="wb_root" class="root wb-layout-vertical"><div class="wb_sbg"></div><div id="wb_header_a188dd9cfa60000804666376dffe914b" class="wb_element wb-sticky wb-layout-element" data-plugin="LayoutElement" data-h-align="center" data-v-align="top"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf902f6910e4c7158a9d959" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a18b5b80cc2e0071d71d6987ba47a056" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19069acc0210077f5a91a3720737414" class="wb_element wb_element_picture" data-plugin="Picture" title='DataSafari "DS" Small Logo'><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.datasafari.dev" title="DataSafari's Official Website"><img loading="lazy" alt='DataSafari "DS" Small Logo' src="gallery_gen/0ca5f8cfa084376e916227421f0e22bd_222x222_fit.png?ts=1729693346"></a></div></div></div></div></div><div id="a18b5b8018d000af6a3f43cd7ba05055" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf904aff3c0a43fffd0846f" class="wb_element wb-menu wb-prevent-layout-click wb-menu-mobile" data-plugin="Menu"><a class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><ul class="hmenu" dir="ltr"><li data-anchor="glance" class="wb_this_page_menu_item"><a href="#glance">At a Glance</a></li><li data-anchor="installation" class="wb_this_page_menu_item"><a href="#installation">Installation</a></li><li data-anchor="usage" class="wb_this_page_menu_item"><a href="#usage">Usage</a></li><li data-anchor="documentation" class="wb_this_page_menu_item"><a href="#documentation">Documentation</a></li><li data-anchor="source" class="wb_this_page_menu_item"><a href="#source">Source</a></li></ul><div class="clearfix"></div></div></div></div></div></div></div></div><div id="wb_main_a188dd9cfa60000804666376dffe914b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf9062e31cd48cbb6ca84ba" class="wb_element background-video wb-layout-element" data-plugin="LayoutElement"><script>$(function () {$('#a188dd9ceaf9062e31cd48cbb6ca84ba').on('click', function (e) {e.stopPropagation();this.muted=true; this.play(); this.addEventListener('click', (event) => { event.currentTarget.play(); });;return true;});});</script><div class="wb_content wb-layout-horizontal"><div id="a188dd9ceaf9062e31cd48cbb6ca84ba_video_background" class="wb_video_background" data-video="gallery/safari.mp4" data-start="" data-end=""></div><div id="a188dd9ceaf90731fb3cd43b408560c0" class="wb_element wb-anim-entry wb-anim wb-anim-fade-in-none wb-layout-element" data-plugin="LayoutElement" data-wb-anim-entry-time="0.6" data-wb-anim-entry-delay="0"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf90873b48d6f6e13191a91" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2" style="text-align: center;"><span style="font-size:28px;"><strong><span style="color:#ffffff;">Complex Workflows.</span></strong></span></h2>
+<body class="site site-lang-en<?php if (isset($wbPopupMode) && $wbPopupMode) echo ' popup-mode'; ?> " <?php ?>><div id="wb_root" class="root wb-layout-vertical"><div class="wb_sbg"></div><div id="wb_header_a188dd9cfa60000804666376dffe914b" class="wb_element wb-sticky wb-layout-element" data-plugin="LayoutElement" data-h-align="center" data-v-align="top"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf902f6910e4c7158a9d959" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a18b5b80cc2e0071d71d6987ba47a056" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19069acc0210077f5a91a3720737414" class="wb_element wb_element_picture" data-plugin="Picture" title='DataSafari "DS" Small Logo'><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.datasafari.dev" title="DataSafari's Official Website"><img loading="lazy" alt='DataSafari "DS" Small Logo' src="gallery_gen/0ca5f8cfa084376e916227421f0e22bd_222x222_fit.png?ts=1777902442"></a></div></div></div></div></div><div id="a18b5b8018d000af6a3f43cd7ba05055" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf904aff3c0a43fffd0846f" class="wb_element wb-menu wb-prevent-layout-click wb-menu-mobile" data-plugin="Menu"><span class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></span><?php MenuElement::render((object) array(
+	'type' => 'hmenu',
+	'dir' => 'ltr',
+	'items' => array(
+		(object) array(
+			'id' => 1,
+			'href' => '#glance',
+			'name' => 'At a Glance',
+			'anchor' => 'glance',
+			'class' => 'wb_this_page_menu_item active',
+			'children' => array()
+		),
+		(object) array(
+			'id' => 2,
+			'href' => '#installation',
+			'name' => 'Installation',
+			'anchor' => 'installation',
+			'class' => 'wb_this_page_menu_item active',
+			'children' => array()
+		),
+		(object) array(
+			'id' => 3,
+			'href' => '#usage',
+			'name' => 'Usage',
+			'anchor' => 'usage',
+			'class' => 'wb_this_page_menu_item active',
+			'children' => array()
+		),
+		(object) array(
+			'id' => 4,
+			'href' => '#documentation',
+			'name' => 'Documentation',
+			'anchor' => 'documentation',
+			'class' => 'wb_this_page_menu_item active',
+			'children' => array()
+		),
+		(object) array(
+			'id' => 5,
+			'href' => '#source',
+			'name' => 'Source',
+			'anchor' => 'source',
+			'class' => 'wb_this_page_menu_item active',
+			'children' => array()
+		)
+	)
+)); ?><div class="clearfix"></div></div></div></div></div></div></div></div><div id="wb_main_a188dd9cfa60000804666376dffe914b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf9062e31cd48cbb6ca84ba" class="wb_element background-video wb-layout-element" data-plugin="LayoutElement"><script>$(function () {$('#a188dd9ceaf9062e31cd48cbb6ca84ba').on('click', function (e) {e.stopPropagation();this.muted=true; this.play(); this.addEventListener('click', (event) => { event.currentTarget.play(); });;return true;});});</script><div class="wb_content wb-layout-horizontal"><div id="a188dd9ceaf9062e31cd48cbb6ca84ba_video_background" class="wb_video_background" data-video="gallery/safari.mp4" data-start="" data-end=""></div><div id="a188dd9ceaf90731fb3cd43b408560c0" class="wb_element wb-anim-entry wb-anim wb-anim-fade-in-none wb-layout-element" data-plugin="LayoutElement" data-wb-anim-entry-time="0.6" data-wb-anim-entry-delay="0"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf90873b48d6f6e13191a91" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2" style="text-align: center;"><span style="font-size:28px;"><strong><span style="color:#ffffff;">Complex Workflows.</span></strong></span></h2>
 
 <h2 class="wb-stl-heading2" style="text-align: center;"><span style="font-size:28px;"><strong><span style="color:#ffffff;">Simple Solutions. </span></strong></span></h2>
 </div><div id="a190ac91785700fac5a38c5c99dd44f0" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;"><script>
@@ -111,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1 class="wb-stl-heading1" style="text-align: center;"><span style="color:#ffffff;">Simple Solutions. </span></h1>
 </div><div id="a188dd9ceaf909e9eeecea0c3caf985c" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><span class="wb-stl-highlight"><span style="color:#ffffff;"><span style="font-size:22px;">DataSafari simplifies complex data science tasks into straightforward, powerful one-liners. </span></span></span></p>
 </div><div id="a190ac7ba69b009723e23b5ed63bfa1d" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><span class="wb-stl-highlight"><span style="color:#ffffff;"><span style="font-size:22px;">DataSafari simplifies complex data science tasks into straightforward, powerful one-liners. </span></span></span></p>
-</div><div id="a1905917f7e500800ccbe94b15390529" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;">
+</div><div id="a1905917f7e500800ccbe94b15390529" class="wb_element" data-plugin="CustomHtml"><div style="width: 100%; height: 100%;">
 <div data-replaced-tag="html" lang="en">
 <div data-replaced-tag="head">
     <style>
@@ -295,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div></div></div></div></div><div id="a188dd9ceaf920b727d7de38ce3b97c9" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190691f95070093def576cdbc8bc75c" class="wb_element wb-elm-orient-horizontal" data-plugin="Line"><div class="wb-elm-line"></div></div><div id="a188dd9ceaf921871a09c7aac9f40279" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19064b4919c00d15ed90b6c92153bd2" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><a name="installation" class="wb_anchor"></a><h2 class="wb-stl-heading2" style="text-align: center;"><b>installation</b></h2>
 </div><div id="a19064b52e2400b7ac9376e1e15a6b40" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><font color="#ffffff"><span style="font-size: 20px;">DataSafari is available on PyPI and can be installed using pip or Poetry.</span></font></p>
 </div><div id="a1906824418e00c143fb7d98ce45fb2f" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a1906824418e0102e4313d5df0242657" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19068264ac600f562e37695fbd9cb05" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-custom4" style="text-align: center;">1. Install DataSafari in your Terminal</h2>
-</div><div id="a190ac5e77d10090a10ce2725f3ec846" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;">
+</div><div id="a190ac5e77d10090a10ce2725f3ec846" class="wb_element" data-plugin="CustomHtml"><div style="width: 100%; height: 100%;">
 <div data-replaced-tag="html" lang="en">
 <div data-replaced-tag="head">
     <style>
@@ -378,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 </div></div></div></div><div id="a1906824418e02d230eb554be3482c9a" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190682513bb0027e5014749ac868321" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-custom4" style="text-align: center;">2. Import DataSafari in your Python script</h2>
-</div><div id="a190638a84b100764a3d0bdb89a930bb" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;">
+</div><div id="a190638a84b100764a3d0bdb89a930bb" class="wb_element" data-plugin="CustomHtml"><div style="width: 100%; height: 100%;">
 <div data-replaced-tag="html" lang="en">
 <div data-replaced-tag="head">
     <style>
@@ -490,7 +535,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div><div id="a19068c464c00093980d81602a2bc43c" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><font color="#ffffff"><span style="font-size: 20px;">For extensive usage examples and instructions, visit <a data-_="Link" href="https://www.datasafari.dev/docs" title="Link to DataSafari Official Documentation">DataSafari's documentation</a>.</span></font></p>
 </div><div id="a190ac80877a00637257cc1d8c750996" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><font color="#ffffff"><span style="font-size: 20px;">For extensive usage examples and instructions, visit DataSafari's documentation.</span></font></p>
 </div><div id="a19068c470f000dbf3d4f49228568822" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a19068c470f50061e781f1f8de05bd7b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19068c470fa00cab48b50fe5d163a32" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-custom4" style="text-align: center;">Hypothesis Testing with DataSafari</h2>
-</div><div id="a19068c47107004813b0296849cb5431" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;">
+</div><div id="a19068c47107004813b0296849cb5431" class="wb_element" data-plugin="CustomHtml"><div style="width: 100%; height: 100%;">
 <div data-replaced-tag="html" lang="en">
 <div data-replaced-tag="head">
     
@@ -606,7 +651,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div><div id="a190ac823d61009cfa05d6af5aa3dfc7" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: center;"><a data-_="Link" href="https://www.datasafari.dev/docs" title="Access DataSafari Documentation"><span style="color:rgba(255,255,255,1);">SKIP THE FLUFF. READ THE DOCS. </span>→</a></h4>
 </div></div></div><div id="a19069202bea00953f3ab9e1eac966d8" class="wb_element wb-elm-orient-horizontal" data-plugin="Line"><div class="wb-elm-line"></div></div><div id="a19069194dee002f6295d736a76a8eba" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19069194df300cb48c8bd2a27c5e150" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><a name="source" class="wb_anchor"></a><h2 class="wb-stl-heading2" style="text-align: center;"><b>Open Source</b></h2>
 </div><div id="a19069194dfd0087afce61c49bb41972" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><font color="#ffffff"><span style="font-size: 20px;">DataSafari is built on a foundation of transparency. Distributed under GNU GPL v3.</span></font></p>
-</div><div id="a19069194e7a0058661e4cd585973f8f" class="wb_element" data-plugin="CustomHtml" style=" overflow: hidden;"><div style="width: 100%; height: 100%; overflow-y: auto;">
+</div><div id="a19069194e7a0058661e4cd585973f8f" class="wb_element" data-plugin="CustomHtml"><div style="width: 100%; height: 100%;">
 <div data-replaced-tag="html" lang="en">
 <div data-replaced-tag="head">
     
@@ -666,11 +711,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 </div>
-</div></div></div></div></div></div></div></div><div id="wb_footer_a188dd9cfa60000804666376dffe914b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190602d18cf004efe1342ab1f88bc09" class="wb_element wb-elm-orient-horizontal" data-plugin="Line"><div class="wb-elm-line"></div></div><div id="a188dd9ceaf9390cedb9c0e131b22c40" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190eb1d334300d3ff5c614041b2dc54" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;">Related Domains:</p>
-
-<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.datasafari.co" target="_blank" title="DataSafari Official Website">datasafari.co</a></p>
-
-<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://datasafari.co" target="_blank" title="DataSafari Official Website">datasafari.xyz</a></p>
+</div></div></div></div></div></div></div></div><div id="wb_footer_a188dd9cfa60000804666376dffe914b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190602d18cf004efe1342ab1f88bc09" class="wb_element wb-elm-orient-horizontal" data-plugin="Line"><div class="wb-elm-line"></div></div><div id="a188dd9ceaf9390cedb9c0e131b22c40" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a190eb1d334300d3ff5c614041b2dc54" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;"><span style="color:#ad72ff;"><strong>+ Related Domains +</strong></span></p>
 
 <p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.georgedreemer.com" target="_blank" title="George Dreemer Official Website">georgedreemer.com</a></p>
 
@@ -678,11 +719,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.cryptopandemic.com" target="_blank" title="CryptoPandemic Official Website">cryptopandemic.com</a></p>
 
-<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="dreemcorp.com" target="_blank" title="DREEMCORP's Official Website">dreemcorp.com</a></p>
+<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.youtube.com/@anabolicmusick" target="_blank" title="anabolic musick youtube channel">anabolicmusick.com</a></p>
 
-<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="anabolickmusic.com" target="_blank" title="anabolic musick's Official Website">anabolickmusic.com</a></p>
-</div><div id="a190e9d07bf00077321713a0823ff0ad" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer">© 2024 <a data-_="Link" href="https://www.georgedreemer.com">George Dreemer</a></p>
-</div></div></div><div id="a190e9d4785f00bc31e7feef0671feb2" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a19069a40103007ab5a6948538e19ddb" class="wb_element wb_element_picture" data-plugin="Picture" title="DREEMCORP George Dreemer Logo"><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="dreemcorp.com" title="DREEMCORP's Official Website" target="_blank"><img loading="lazy" alt="DREEMCORP George Dreemer Logo" src="gallery_gen/6742db93b980c975748be6c57a3e7e48_66x70_fit.png?ts=1729693346"></a></div></div></div></div></div><div id="wb_footer_c" class="wb_element" data-plugin="WB_Footer" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+<p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.dreemcorp.com" target="_blank" title="DREEMCORP Official Website">dreemcorp.com</a></p>
+</div><div id="a19df27d149d00baf8b1b32036ab092b" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;">Made with 💜 by <a data-_="Link" href="https://www.georgedreemer.com" target="_blank" title="George Dreemer Official Website">George Dreemer</a>.</p>
+</div><div id="a19df27d4cd700062a8fb687584cf022" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;"><strong>© 2026 DREEMCORP</strong></p>
+</div></div></div><div id="a190e9d4785f00bc31e7feef0671feb2" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a19069a40103007ab5a6948538e19ddb" class="wb_element wb_element_picture" data-plugin="Picture" title="DREEMCORP George Dreemer Logo"><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.dreemcorp.com" title="DREEMCORP Official Website" target="_blank"><img loading="lazy" alt="DREEMCORP George Dreemer Logo" src="gallery_gen/6742db93b980c975748be6c57a3e7e48_66x70_fit.png?ts=1777902442"></a></div></div></div></div></div><div id="wb_footer_c" class="wb_element" data-plugin="WB_Footer" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
