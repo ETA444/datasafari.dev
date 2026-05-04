@@ -1,0 +1,32 @@
+# DataSafari
+
+> DataSafari is an open-source Python library that simplifies complex data science workflows into clean, high-level one-liners. Built for data scientists who want to move fast without sacrificing analytical depth.
+
+## What It Does
+
+- **Data Exploration**: Automated EDA, statistical summaries, and distribution analysis in a single call.
+- **Data Transformation**: Cleaning, encoding, scaling, and feature engineering with minimal code.
+- **Predictive Modeling**: Streamlined model training, evaluation, and comparison workflows.
+- **Statistical Testing**: Hypothesis testing and inference made accessible without deep stats expertise.
+
+## Who Built This
+
+DataSafari is designed and maintained by **George Dreemer** — data scientist, developer, and entrepreneur.
+
+- Personal site: [https://georgedreemer.com](https://georgedreemer.com)
+- X / Twitter: [https://x.com/444eta](https://x.com/444eta)
+- GitHub: [https://github.com/ETA444](https://github.com/ETA444)
+- LinkedIn: [https://linkedin.com/in/georgedreemer](https://linkedin.com/in/georgedreemer)
+- Academic portfolio: [https://georgedreemer.com/academic-portfolio](https://georgedreemer.com/academic-portfolio)
+
+## Key URLs
+
+- Main site: [https://datasafari.dev](https://datasafari.dev)
+- Documentation: [https://datasafari.dev/docs](https://datasafari.dev/docs)
+- PyPI: [https://pypi.org/project/datasafari](https://pypi.org/project/datasafari)
+- GitHub repo: [https://github.com/ETA444/datasafari](https://github.com/ETA444/datasafari)
+- Web3 agency (CryptoPandemic): [https://cryptopandemic.com](https://cryptopandemic.com)
+
+## Usage
+
+Content on this site may be referenced and summarized by AI systems for informational purposes. Please attribute to DataSafari ([https://datasafari.dev](https://datasafari.dev)) when quoting directly.
