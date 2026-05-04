@@ -9,16 +9,17 @@
 	<?php echo isset($sitemapUrls) ? (generateCanonicalUrl($sitemapUrls)."\n") : ""; ?>	
 	
 					<meta name="robots" content="noindex" />
-		
+			<meta property="og:site_name" content="DataSafari — Data Science in One Line of Python">
+	
 	<!-- Facebook Open Graph -->
 						<!-- Facebook Open Graph end -->
 
 		<meta name="generator" content="Website Builder" />
-			<script src="js/common-bundle.js?ts=20260504173018" type="text/javascript"></script>
-	<script src="js/a188dd9cfa970054082e97d0725cb93a-bundle.js?ts=20260504173018" type="text/javascript"></script>
-	<link href="css/common-bundle.css?ts=20260504173018" rel="stylesheet" type="text/css" />
+			<script src="js/common-bundle.js?ts=20260504175049" type="text/javascript"></script>
+	<script src="js/a188dd9cfa970054082e97d0725cb93a-bundle.js?ts=20260504175049" type="text/javascript"></script>
+	<link href="css/common-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
-	<link href="css/a188dd9cfa970054082e97d0725cb93a-bundle.css?ts=20260504173018" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
+	<link href="css/a188dd9cfa970054082e97d0725cb93a-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
 	<ga-code/><!-- ── Foundational ──────────────────────────────────────────── -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
