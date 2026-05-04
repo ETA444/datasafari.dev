@@ -20,7 +20,7 @@
 	$langs = null;
 	$def_lang = null;
 	$base_lang = 'en';
-	$site_id = 'b93281a9';
+	$site_id = '0f7e7b4b';
 	${'sitemapUrls'} = array(
 		'https://datasafari.dev/'
 	);
