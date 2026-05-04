@@ -14,12 +14,12 @@
 						<!-- Facebook Open Graph end -->
 
 		<meta name="generator" content="Website Builder" />
-			<script src="js/common-bundle.js?ts=20260504175049" type="text/javascript"></script>
-	<script src="js/a188dd9cfa60000804666376dffe914b-bundle.js?ts=20260504175049" type="text/javascript"></script>
-	<link href="css/common-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" />
+			<script src="js/common-bundle.js?ts=20260504175551" type="text/javascript"></script>
+	<script src="js/a188dd9cfa60000804666376dffe914b-bundle.js?ts=20260504175551" type="text/javascript"></script>
+	<link href="css/common-bundle.css?ts=20260504175551" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
-	<link href="css/a188dd9cfa60000804666376dffe914b-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
+	<link href="css/a188dd9cfa60000804666376dffe914b-bundle.css?ts=20260504175551" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
 	<ga-code/><!-- ── Foundational ──────────────────────────────────────────── -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,23 +74,7 @@ mixpanel.init("", {
 	window.disableRightClick = false;
 	window.currLang = 'en';
 </script>
-	<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "name": "DataSafari Official Website",
-  "url": "https://www.datasafari.dev/",
-  "description": "DataSafari simplifies complex data science tasks into straightforward, powerful one-liners.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "DataSafari",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.datasafari.dev/docs/_static/logos/ds-branding-logo-big-darkmode.png"
-    }
-  }
-}
-</script>	
+		
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.min.js"></script>
 	<![endif]-->
@@ -119,7 +103,7 @@ mixpanel.init("", {
 </head>
 
 
-<body class="site site-lang-en<?php if (isset($wbPopupMode) && $wbPopupMode) echo ' popup-mode'; ?> " <?php ?>><div id="wb_root" class="root wb-layout-vertical"><div class="wb_sbg"></div><div id="wb_header_a188dd9cfa60000804666376dffe914b" class="wb_element wb-sticky wb-layout-element" data-plugin="LayoutElement" data-h-align="center" data-v-align="top"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf902f6910e4c7158a9d959" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a18b5b80cc2e0071d71d6987ba47a056" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19069acc0210077f5a91a3720737414" class="wb_element wb_element_picture" data-plugin="Picture" title='DataSafari "DS" Small Logo'><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.datasafari.dev" title="DataSafari's Official Website"><img loading="lazy" alt='DataSafari "DS" Small Logo' src="gallery_gen/0ca5f8cfa084376e916227421f0e22bd_222x222_fit.png?ts=1777906251"></a></div></div></div></div></div><div id="a18b5b8018d000af6a3f43cd7ba05055" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf904aff3c0a43fffd0846f" class="wb_element wb-menu wb-prevent-layout-click wb-menu-mobile" data-plugin="Menu"><span class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></span><?php MenuElement::render((object) array(
+<body class="site site-lang-en<?php if (isset($wbPopupMode) && $wbPopupMode) echo ' popup-mode'; ?> " <?php ?>><div id="wb_root" class="root wb-layout-vertical"><div class="wb_sbg"></div><div id="wb_header_a188dd9cfa60000804666376dffe914b" class="wb_element wb-sticky wb-layout-element" data-plugin="LayoutElement" data-h-align="center" data-v-align="top"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf902f6910e4c7158a9d959" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a18b5b80cc2e0071d71d6987ba47a056" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a19069acc0210077f5a91a3720737414" class="wb_element wb_element_picture" data-plugin="Picture" title='DataSafari "DS" Small Logo'><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.datasafari.dev" title="DataSafari's Official Website"><img loading="lazy" alt='DataSafari "DS" Small Logo' src="gallery_gen/0ca5f8cfa084376e916227421f0e22bd_222x222_fit.png?ts=1777906551"></a></div></div></div></div></div><div id="a18b5b8018d000af6a3f43cd7ba05055" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9ceaf904aff3c0a43fffd0846f" class="wb_element wb-menu wb-prevent-layout-click wb-menu-mobile" data-plugin="Menu"><span class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></span><?php MenuElement::render((object) array(
 	'type' => 'hmenu',
 	'dir' => 'ltr',
 	'items' => array(
@@ -751,7 +735,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p class="wb-stl-footer" style="text-align: center;"><a data-_="Link" href="https://www.dreemcorp.com" target="_blank" title="DREEMCORP Official Website">dreemcorp.com</a></p>
 </div><div id="a19df27d149d00baf8b1b32036ab092b" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;">Made with 💜 by <a data-_="Link" href="https://www.georgedreemer.com" target="_blank" title="George Dreemer Official Website">George Dreemer</a>.</p>
 </div><div id="a19df27d4cd700062a8fb687584cf022" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-footer" style="text-align: center;"><strong>© 2026 DREEMCORP</strong></p>
-</div></div></div><div id="a190e9d4785f00bc31e7feef0671feb2" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a19069a40103007ab5a6948538e19ddb" class="wb_element wb_element_picture" data-plugin="Picture" title="DREEMCORP George Dreemer Logo"><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.dreemcorp.com" title="DREEMCORP Official Website" target="_blank"><img loading="lazy" alt="DREEMCORP George Dreemer Logo" src="gallery_gen/6742db93b980c975748be6c57a3e7e48_66x70_fit.png?ts=1777906251"></a></div></div></div></div></div><div id="wb_footer_c" class="wb_element" data-plugin="WB_Footer" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+</div></div></div><div id="a190e9d4785f00bc31e7feef0671feb2" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a19069a40103007ab5a6948538e19ddb" class="wb_element wb_element_picture" data-plugin="Picture" title="DREEMCORP George Dreemer Logo"><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="https://www.dreemcorp.com" title="DREEMCORP Official Website" target="_blank"><img loading="lazy" alt="DREEMCORP George Dreemer Logo" src="gallery_gen/6742db93b980c975748be6c57a3e7e48_66x70_fit.png?ts=1777906551"></a></div></div></div></div></div><div id="wb_footer_c" class="wb_element" data-plugin="WB_Footer" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
@@ -761,5 +745,287 @@ document.addEventListener('DOMContentLoaded', function() {
 					footer.css({height: ""});
 				}
 			});
-			</script></div></div></div></div>{{hr_out}}</body>
+			</script></div></div></div><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://datasafari.dev/#software",
+      "name": "DataSafari",
+      "alternateName": "datasafari",
+      "url": "https://datasafari.dev",
+      "description": "DataSafari is an open-source Python library that collapses complex data science workflows into clean, powerful one-liners. Explore, transform, evaluate assumptions, and build predictive models — all from a single command.",
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "Data Science Library",
+      "operatingSystem": "Any",
+      "programmingLanguage": "Python",
+      "license": "https://opensource.org/licenses/MIT",
+      "codeRepository": "https://github.com/ETA444/datasafari",
+      "downloadUrl": "https://pypi.org/project/datasafari",
+      "installUrl": "https://pypi.org/project/datasafari",
+      "softwareVersion": "latest",
+      "releaseNotes": "https://datasafari.dev/docs",
+      "screenshot": "https://www.datasafari.dev/docs/_static/thumbs/ds-branding-thumb-main-web.png",
+      "featureList": [
+        "Automated exploratory data analysis (EDA)",
+        "Numerical variable exploration with outlier detection (Z-score, IQR, Mahalanobis)",
+        "Categorical variable exploration with entropy and diversity metrics",
+        "Numerical data transformation: standardization, log-transform, scaling, winsorization",
+        "Categorical data transformation: encoding, ML-based smart deduplication",
+        "Normality evaluation with multi-test consensus mechanism",
+        "Variance homogeneity evaluation across groups",
+        "Automatic data type detection and classification",
+        "Hypothesis testing with automatic test selection (Chi-square, T-test, ANOVA, Fisher's exact)",
+        "Automated assumption verification for statistical tests",
+        "ML model selection with composite scoring across multiple metrics",
+        "Automated hyperparameter tuning (grid search, random search, Bayesian optimization)",
+        "Tailored data preprocessing for ML pipelines"
+      ],
+      "keywords": "python, data science, machine learning, exploratory data analysis, hypothesis testing, data transformation, statistical analysis, open source",
+      "author": {
+        "@type": "Person",
+        "@id": "https://georgedreemer.com/#person",
+        "name": "George Dreemer",
+        "url": "https://georgedreemer.com",
+        "jobTitle": "Data Scientist & Developer",
+        "description": "Entrepreneur, data scientist, and developer with an MSc-level background in data analysis. Founder of CryptoPandemic and creator of DataSafari.",
+        "sameAs": [
+          "https://x.com/444eta",
+          "https://github.com/ETA444",
+          "https://linkedin.com/in/georgedreemer",
+          "https://georgedreemer.com"
+        ]
+      },
+      "maintainer": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://github.com/ETA444/datasafari",
+        "https://pypi.org/project/datasafari"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://datasafari.dev/#website",
+      "url": "https://www.datasafari.dev",
+      "name": "DataSafari",
+      "description": "Official website and documentation for the DataSafari Python library.",
+      "publisher": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://datasafari.dev/docs?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "name": "DataSafari Documentation",
+      "url": "https://datasafari.dev/docs",
+      "description": "Official documentation for DataSafari — covering installation, quick start, and all four subpackages: Explorers, Transformers, Evaluators, and Predictors.",
+      "author": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "about": {
+        "@id": "https://datasafari.dev/#software"
+      },
+      "keywords": "datasafari documentation, python data science tutorial, explore_num, transform_cat, evaluate_normality, predict_hypothesis, predict_ml"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to install and use DataSafari",
+      "description": "Get started with DataSafari in three steps.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install via pip",
+          "text": "Run: pip install datasafari"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Import the library",
+          "text": "Run: import datasafari as ds"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Call any function",
+          "text": "Example: explore_num(df, ['Age', 'Income']) for automated numerical EDA."
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://georgedreemer.com/#person",
+      "name": "George Dreemer",
+      "url": "https://georgedreemer.com",
+      "jobTitle": "Data Scientist, Developer & Entrepreneur",
+      "description": "Creator of DataSafari and founder of CryptoPandemic. MSc-level data analyst, open-source contributor, and Web3 entrepreneur.",
+      "knowsAbout": [
+        "Python", "Data Science", "Machine Learning", "Statistical Analysis",
+        "Web3 Marketing", "Solana Ecosystem", "On-chain Analytics",
+        "Open Source Development", "Data Engineering"
+      ],
+      "sameAs": [
+        "https://x.com/444eta",
+        "https://github.com/ETA444",
+        "https://linkedin.com/in/georgedreemer",
+        "https://georgedreemer.com",
+        "https://cryptopandemic.com"
+      ]
+    }
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://datasafari.dev/#software",
+      "name": "DataSafari",
+      "alternateName": "datasafari",
+      "url": "https://datasafari.dev",
+      "description": "DataSafari is an open-source Python library that collapses complex data science workflows into clean, powerful one-liners. Explore, transform, evaluate assumptions, and build predictive models — all from a single command.",
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "Data Science Library",
+      "operatingSystem": "Any",
+      "programmingLanguage": "Python",
+      "license": "https://opensource.org/licenses/MIT",
+      "codeRepository": "https://github.com/ETA444/datasafari",
+      "downloadUrl": "https://pypi.org/project/datasafari",
+      "installUrl": "https://pypi.org/project/datasafari",
+      "softwareVersion": "latest",
+      "releaseNotes": "https://datasafari.dev/docs",
+      "screenshot": "https://www.datasafari.dev/docs/_static/thumbs/ds-branding-thumb-main-web.png",
+      "featureList": [
+        "Automated exploratory data analysis (EDA)",
+        "Numerical variable exploration with outlier detection (Z-score, IQR, Mahalanobis)",
+        "Categorical variable exploration with entropy and diversity metrics",
+        "Numerical data transformation: standardization, log-transform, scaling, winsorization",
+        "Categorical data transformation: encoding, ML-based smart deduplication",
+        "Normality evaluation with multi-test consensus mechanism",
+        "Variance homogeneity evaluation across groups",
+        "Automatic data type detection and classification",
+        "Hypothesis testing with automatic test selection (Chi-square, T-test, ANOVA, Fisher's exact)",
+        "Automated assumption verification for statistical tests",
+        "ML model selection with composite scoring across multiple metrics",
+        "Automated hyperparameter tuning (grid search, random search, Bayesian optimization)",
+        "Tailored data preprocessing for ML pipelines"
+      ],
+      "keywords": "python, data science, machine learning, exploratory data analysis, hypothesis testing, data transformation, statistical analysis, open source",
+      "author": {
+        "@type": "Person",
+        "@id": "https://georgedreemer.com/#person",
+        "name": "George Dreemer",
+        "url": "https://georgedreemer.com",
+        "jobTitle": "Data Scientist & Developer",
+        "description": "Entrepreneur, data scientist, and developer with an MSc-level background in data analysis. Founder of CryptoPandemic and creator of DataSafari.",
+        "sameAs": [
+          "https://x.com/444eta",
+          "https://github.com/ETA444",
+          "https://linkedin.com/in/georgedreemer",
+          "https://georgedreemer.com"
+        ]
+      },
+      "maintainer": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://github.com/ETA444/datasafari",
+        "https://pypi.org/project/datasafari"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://datasafari.dev/#website",
+      "url": "https://www.datasafari.dev",
+      "name": "DataSafari",
+      "description": "Official website and documentation for the DataSafari Python library.",
+      "publisher": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://datasafari.dev/docs?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "name": "DataSafari Documentation",
+      "url": "https://datasafari.dev/docs",
+      "description": "Official documentation for DataSafari — covering installation, quick start, and all four subpackages: Explorers, Transformers, Evaluators, and Predictors.",
+      "author": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "about": {
+        "@id": "https://datasafari.dev/#software"
+      },
+      "keywords": "datasafari documentation, python data science tutorial, explore_num, transform_cat, evaluate_normality, predict_hypothesis, predict_ml"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to install and use DataSafari",
+      "description": "Get started with DataSafari in three steps.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install via pip",
+          "text": "Run: pip install datasafari"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Import the library",
+          "text": "Run: import datasafari as ds"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Call any function",
+          "text": "Example: explore_num(df, ['Age', 'Income']) for automated numerical EDA."
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://georgedreemer.com/#person",
+      "name": "George Dreemer",
+      "url": "https://georgedreemer.com",
+      "jobTitle": "Data Scientist, Developer & Entrepreneur",
+      "description": "Creator of DataSafari and founder of CryptoPandemic. MSc-level data analyst, open-source contributor, and Web3 entrepreneur.",
+      "knowsAbout": [
+        "Python", "Data Science", "Machine Learning", "Statistical Analysis",
+        "Web3 Marketing", "Solana Ecosystem", "On-chain Analytics",
+        "Open Source Development", "Data Engineering"
+      ],
+      "sameAs": [
+        "https://x.com/444eta",
+        "https://github.com/ETA444",
+        "https://linkedin.com/in/georgedreemer",
+        "https://georgedreemer.com",
+        "https://cryptopandemic.com"
+      ]
+    }
+  ]
+}
+</script></div>{{hr_out}}</body>
 </html>

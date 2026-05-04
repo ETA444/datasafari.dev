@@ -15,11 +15,11 @@
 						<!-- Facebook Open Graph end -->
 
 		<meta name="generator" content="Website Builder" />
-			<script src="js/common-bundle.js?ts=20260504175049" type="text/javascript"></script>
-	<script src="js/a188dd9cfa970054082e97d0725cb93a-bundle.js?ts=20260504175049" type="text/javascript"></script>
-	<link href="css/common-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" />
+			<script src="js/common-bundle.js?ts=20260504175551" type="text/javascript"></script>
+	<script src="js/a188dd9cfa970054082e97d0725cb93a-bundle.js?ts=20260504175551" type="text/javascript"></script>
+	<link href="css/common-bundle.css?ts=20260504175551" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
-	<link href="css/a188dd9cfa970054082e97d0725cb93a-bundle.css?ts=20260504175049" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
+	<link href="css/a188dd9cfa970054082e97d0725cb93a-bundle.css?ts=20260504175551" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
 	<ga-code/><!-- ── Foundational ──────────────────────────────────────────── -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -115,5 +115,146 @@ mixpanel.init("", {
 					footer.css({height: ""});
 				}
 			});
-			</script></div></div></div></div>{{hr_out}}</body>
+			</script></div></div></div><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://datasafari.dev/#software",
+      "name": "DataSafari",
+      "alternateName": "datasafari",
+      "url": "https://datasafari.dev",
+      "description": "DataSafari is an open-source Python library that collapses complex data science workflows into clean, powerful one-liners. Explore, transform, evaluate assumptions, and build predictive models — all from a single command.",
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "Data Science Library",
+      "operatingSystem": "Any",
+      "programmingLanguage": "Python",
+      "license": "https://opensource.org/licenses/MIT",
+      "codeRepository": "https://github.com/ETA444/datasafari",
+      "downloadUrl": "https://pypi.org/project/datasafari",
+      "installUrl": "https://pypi.org/project/datasafari",
+      "softwareVersion": "latest",
+      "releaseNotes": "https://datasafari.dev/docs",
+      "screenshot": "https://www.datasafari.dev/docs/_static/thumbs/ds-branding-thumb-main-web.png",
+      "featureList": [
+        "Automated exploratory data analysis (EDA)",
+        "Numerical variable exploration with outlier detection (Z-score, IQR, Mahalanobis)",
+        "Categorical variable exploration with entropy and diversity metrics",
+        "Numerical data transformation: standardization, log-transform, scaling, winsorization",
+        "Categorical data transformation: encoding, ML-based smart deduplication",
+        "Normality evaluation with multi-test consensus mechanism",
+        "Variance homogeneity evaluation across groups",
+        "Automatic data type detection and classification",
+        "Hypothesis testing with automatic test selection (Chi-square, T-test, ANOVA, Fisher's exact)",
+        "Automated assumption verification for statistical tests",
+        "ML model selection with composite scoring across multiple metrics",
+        "Automated hyperparameter tuning (grid search, random search, Bayesian optimization)",
+        "Tailored data preprocessing for ML pipelines"
+      ],
+      "keywords": "python, data science, machine learning, exploratory data analysis, hypothesis testing, data transformation, statistical analysis, open source",
+      "author": {
+        "@type": "Person",
+        "@id": "https://georgedreemer.com/#person",
+        "name": "George Dreemer",
+        "url": "https://georgedreemer.com",
+        "jobTitle": "Data Scientist & Developer",
+        "description": "Entrepreneur, data scientist, and developer with an MSc-level background in data analysis. Founder of CryptoPandemic and creator of DataSafari.",
+        "sameAs": [
+          "https://x.com/444eta",
+          "https://github.com/ETA444",
+          "https://linkedin.com/in/georgedreemer",
+          "https://georgedreemer.com"
+        ]
+      },
+      "maintainer": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://github.com/ETA444/datasafari",
+        "https://pypi.org/project/datasafari"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://datasafari.dev/#website",
+      "url": "https://www.datasafari.dev",
+      "name": "DataSafari",
+      "description": "Official website and documentation for the DataSafari Python library.",
+      "publisher": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://datasafari.dev/docs?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "name": "DataSafari Documentation",
+      "url": "https://datasafari.dev/docs",
+      "description": "Official documentation for DataSafari — covering installation, quick start, and all four subpackages: Explorers, Transformers, Evaluators, and Predictors.",
+      "author": {
+        "@id": "https://georgedreemer.com/#person"
+      },
+      "about": {
+        "@id": "https://datasafari.dev/#software"
+      },
+      "keywords": "datasafari documentation, python data science tutorial, explore_num, transform_cat, evaluate_normality, predict_hypothesis, predict_ml"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to install and use DataSafari",
+      "description": "Get started with DataSafari in three steps.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install via pip",
+          "text": "Run: pip install datasafari"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Import the library",
+          "text": "Run: import datasafari as ds"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Call any function",
+          "text": "Example: explore_num(df, ['Age', 'Income']) for automated numerical EDA."
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://georgedreemer.com/#person",
+      "name": "George Dreemer",
+      "url": "https://georgedreemer.com",
+      "jobTitle": "Data Scientist, Developer & Entrepreneur",
+      "description": "Creator of DataSafari and founder of CryptoPandemic. MSc-level data analyst, open-source contributor, and Web3 entrepreneur.",
+      "knowsAbout": [
+        "Python", "Data Science", "Machine Learning", "Statistical Analysis",
+        "Web3 Marketing", "Solana Ecosystem", "On-chain Analytics",
+        "Open Source Development", "Data Engineering"
+      ],
+      "sameAs": [
+        "https://x.com/444eta",
+        "https://github.com/ETA444",
+        "https://linkedin.com/in/georgedreemer",
+        "https://georgedreemer.com",
+        "https://cryptopandemic.com"
+      ]
+    }
+  ]
+}
+</script></div>{{hr_out}}</body>
 </html>
