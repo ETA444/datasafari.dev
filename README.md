@@ -19,9 +19,16 @@ Files are pulled from the cPanel server using `scripts/cpanel-sync.sh` and commi
 ## Structure
 ```
 datasafari.dev/
-├── public_html/        ← live site files (synced from server)
-└── scripts/
-    └── cpanel-sync.sh  ← cPanel → local sync script
+├── public_html/          ← site source (live)
+├── scripts/
+│   └── cpanel-sync.sh    ← cPanel sync script
+├── seo/                  ← seo-related files (not live)
+│   ├── htaccess
+│   ├── robots.txt
+│   ├── llms.txt
+│   ├── meta-tags.html
+│   └── schema.json
+└── README.md
 ```
 
 ## Related
